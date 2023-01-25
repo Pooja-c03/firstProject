@@ -5,74 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="main">
+<div class="register">
     <h1>REGISTRATION FORM</h1>
+
     <form action="school.php">
-    First Name:
-    <input type="text" placeholder="Enter Name here">
+
+    <label>First Name:</label>
+    <br>
+    <input type="text" placeholder="Enter Name here" id="name">
     <br>
     <br>
-    Enter School password:
-    <input type="password" placeholder="Enter password here">
+
+    <label>Enter School password:</label>
+    <br>
+    <input type="password" placeholder="Enter password here" id="name">
     <br>
     <br>
-    Enter Email:
-    <input type="email" placeholder="ID@gmail.com">
-    <br><br>
-    Enter mobile number:
-    <input type="text" placeholder="+91" padding-right:10 px maxlength="10">
-    <br><br>
-    Select your city:
-    <select name="city">
+
+    <label>Enter Email:</label>
+    <br>
+    <input type="email" placeholder="ID@gmail.com" id="name">
+    <br>
+    <br>
+
+    <label>Enter mobile number:</label>
+    <br>
+    <input type="text" placeholder="+91" padding-right:10 px maxlength="10" id="name">
+    <br>
+    <br>
+
+    <label>Select your city:</label>
+    <br>
+    <select class="select" name="city" id="name">
         <option value="Kochi">Kochi</option>
         <option value="Banglore">Banglore</option>
         <option value="Chennai">Chennai</option>
         <option value="Mumbai">Mumbai</option>
         <option value="Delhi">Delhi</option>
     </select>
-    <br><br>
-    Enter your Date of birth:
-    <input type="date" placeholder="Enter your DOB here">
-    <br><br>
-    Select your class:
+    <br>
+    <br>
+
+    <label>Enter your Date of birth:</label>
+    <br>
+    <input type="date" placeholder="Enter your DOB here" id="name">
+    <br>
+    <br>
+
+    <label>Select your class:</label>
     <br>
     <label for="class11">
-        <input type="radio" value="Class XI" id="class11" name="class"> Class XI
+        <input type="radio" value="Class XI" id="class11" name="class">Class XI
     </label>
+    &nbsp;&nbsp;
+
     <label for="class12">
-        <input type="radio" value="Class XII" id="class12" name="class"> Class XII
+        <input type="radio" width="100%" value="Class XII" id="class12" name="class">Class XII
     </label>
-    <br><br>
-    Select the subjects for your Class<i>(Can select multiple options)</i>:
+    <br>
+    <br>
+
+    <label>Select the subjects for your Class<i>(Can select multiple options)</i>:</label>
     <br>
     <label for="1">
-        <input type="checkbox" value="Chemistry" id="1" name="subjects"> Chemsitry
+        <input type="checkbox" value="Chemistry" id="1" name="subjects">Chemistry
     </label>
     <br>
+
     <label for="2">
-        <input type="checkbox" value="Computer Science" id="2" name="subjects"> Computer Science
+        <input type="checkbox" value="Computer Science" id="2" name="subjects">Computer Science
     </label>
     <br>
+
     <label for="3">
-        <input type="checkbox" value="Physiscs" id="3" name="subjects"> Physics
+        <input type="checkbox" value="Physiscs" id="3" name="subjects">Physics
     </label>
     <br>
+
     <label for="4">
-        <input type="checkbox" value="Biology" id="4" name="subjects"> Biology
+        <input type="checkbox" value="Biology" id="4" name="subjects">Biology
     <br>
     <label for="5">
-        <input type="checkbox" value="Math" id="5" name="subjects"> Math
+        <input type="checkbox" value="Math" id="5" name="subjects">Math
     </label>
     <br><br><br>
+
     <label for="fdb">
         <textarea name="feedback" id="fdb" placeholder="Enter your suggestions" rows="5"></textarea>
     </label>
     <br><br>
-    <input type="submit" value="Submit Form"> 
-    <input type="reset">
+
+    <input type="submit" value="Submit Form" id="over"> 
+
+    <input type="reset" id="over">
+
     <footer><h5>For further enquiries, contact +91 9037462839</h5></footer>
-</form>
     
+</div>
+</div>
+</form>
 </body>
 </html>
